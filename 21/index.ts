@@ -6,4 +6,3 @@
 const city = {
   cities: ["Lahore", "Karachi", "Rawalpindi", "Peshawar", "Quetta"],
 };
-console.log(city.cities);
