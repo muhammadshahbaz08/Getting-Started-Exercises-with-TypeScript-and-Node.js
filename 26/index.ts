@@ -10,7 +10,6 @@
 let alien_color: "green" | "yellow" | "red" = "green";
 if (alien_color === "green") {
   console.log("Player Earned 5 Points!");
-}
-if (alien_color !== "green") {
+} else if (alien_color !== "green") {
   console.log("Player Earned 10 Points");
 }
