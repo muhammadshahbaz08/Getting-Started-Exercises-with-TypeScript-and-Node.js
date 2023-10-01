@@ -6,7 +6,7 @@
 • Write one version of this program that passes the if test and another that fails. 
   (The version that fails will have no output.)
  */
-let alien_color = "green";
+let alien_color: "green" | "yellow" | "red" = "green";
 if (alien_color === "green") {
   console.log("Player Earned 5 Points!");
 }
