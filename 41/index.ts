@@ -14,7 +14,7 @@ const magician_Names: string[] = [
 
 const show_magicians = () => {
   magician_Names.forEach((mag_name) => {
-    console.log(`Magician ${mag_name}`);
+    console.log(mag_name);
   });
 };
 
